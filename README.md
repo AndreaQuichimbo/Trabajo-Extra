@@ -32,7 +32,12 @@ Objetivos Específicos
 
 <div align="center">
   
+**CupCarbon**
+  
+![image](https://user-images.githubusercontent.com/84430867/132598335-77218170-2801-43ab-88ff-1cb8912d1879.png)
+
 </div>
+
 
 # 3. Desarrollo
 
