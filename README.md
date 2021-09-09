@@ -38,11 +38,24 @@ Objetivos Específicos
 
 </div>
 
+CupCarbon es un sensor inalámbrico de Smart City e Internet de las cosas Simulador de red (SCI-WSN). Su objetivo es diseñar, visualizar, depurar y validar algoritmos distribuidos para monitoreo, recopilación de datos ambientales, etc., y para crear escenarios como incendios, gas, móviles y, en general, dentro de proyectos educativos y científicos. No solo puede ayudar a visualizar explicar los conceptos básicos de las redes de sensores y cómo funcionan; también puede ayudar a los científicos a probar sus topologías inalámbricas,
+protocolos, etc.
+
+CupCarbon ofrece dos entornos de simulación.
+
+- El primero es el entorno de simulación permite el diseño de escenarios de movilidad. y la generación de eventos naturales como incendios y gas así como la simulación de móviles como vehículos y vuelos objetos (por ejemplo, vehículos aéreos no tripulados, insectos, etc.).
+- El segundo entorno de simulación representa una simulación de eventos discretos de redes de sensores que tienen en cuenta el escenario diseñado sobre la base del primer entorno.
+
+Las redes se pueden diseñar y crear prototipos mediante una interfaz ergonómica y fácil de usar utilizando OpenStreetMap (OSM) marco para desplegar sensores directamente en el mapa. Incluye un script llamado SenScript, que permite programar y programar configurar cada nodo sensor individualmente. A partir de este script, también es posible generar códigos para plataformas de hardware como como Arduino / XBee. Esta parte no está completamente implementada en CupCarbon, permite generar códigos para redes simples y algoritmos.
 
 # 3. Desarrollo
 
 # 4. VIDEO
 
 # 5. CONCLUSIONES
+
+- La simulación de CupCarbon se basa en la capa de aplicación de los nodos. Esto lo convierte en un verdadero complemento de los
+simuladores. No simula todas las capas de protocolo debido a la naturaleza compleja de las redes urbanas que necesitan incorporar
+otra información compleja y que consume recursos, como edificios, carreteras, movilidad, señales, etc.
 
 # 6. BIBLIOGRAFÍAS
