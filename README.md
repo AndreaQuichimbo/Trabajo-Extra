@@ -47,6 +47,9 @@ CupCarbon ofrece dos entornos de simulación.
 
 Las redes se pueden diseñar y crear prototipos mediante una interfaz ergonómica y fácil de usar utilizando OpenStreetMap (OSM) marco para desplegar sensores directamente en el mapa. Incluye un script llamado SenScript, que permite programar y programar configurar cada nodo sensor individualmente. A partir de este script, también es posible generar códigos para plataformas de hardware como como Arduino / XBee. Esta parte no está completamente implementada en CupCarbon, permite generar códigos para redes simples y algoritmos.
 
+**2.1 ¿Qué es el IoT?**
+
+Internet of Things (IoT) describe la red de objetos físicos (cosas) que incorporan sensores, software y otras tecnologías con el fin de conectar e intercambiar datos con otros dispositivos y sistemas a través de Internet. Estos dispositivos van desde objetos domésticos comunes hasta herramientas industriales sofisticadas. Con más de 7 mil millones de dispositivos IoT conectados en la actualidad, los expertos prevén que este número aumente a 10 mil millones para 2020 y 22 mil millones para 2025. Oracle cuenta con una red de partners de dispositivos.
 
 # 3. Desarrollo
 
