@@ -51,6 +51,10 @@ Las redes se pueden diseñar y crear prototipos mediante una interfaz ergonómic
 
 Internet of Things (IoT) describe la red de objetos físicos (cosas) que incorporan sensores, software y otras tecnologías con el fin de conectar e intercambiar datos con otros dispositivos y sistemas a través de Internet. Estos dispositivos van desde objetos domésticos comunes hasta herramientas industriales sofisticadas. Con más de 7 mil millones de dispositivos IoT conectados en la actualidad, los expertos prevén que este número aumente a 10 mil millones para 2020 y 22 mil millones para 2025. Oracle cuenta con una red de partners de dispositivos.
 
+La implementación de varios nodos de IoT es muy difícil, costosa, demorada y puede ser imposible cuando los nodos tienen que ser reprogramados frecuentemente o cuando los nodos se implementan en lugares distantes, por ejemplo, en diferentes ciudades o países.
+
+Así, el uso de software para simular la implementación, reconfiguración y monitoreo de los algoritmos de comunicación de esas redes son muy prácticos y útiles en determinadas fases de un proyecto. La plataforma “CupCarbon” fue desarrollado para este propósito.
+
 # 3. Desarrollo
 
 # 4. VIDEO
