@@ -82,6 +82,8 @@ Se prevé que en el 2050 un 85% de la población mundial viva en ciudades. Este 
 
 # 3. Desarrollo
 
+![image](https://user-images.githubusercontent.com/84430867/132935499-8f7ca10a-418a-4052-90cb-b296ae5195ff.png)
+
 # 4. VIDEO
 
 # 5. CONCLUSIONES
