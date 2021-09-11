@@ -93,3 +93,8 @@ Se prevé que en el 2050 un 85% de la población mundial viva en ciudades. Este 
 - CupCarbon es un software relativamente nuevo, así que el alcance total aún no está determinado; debido a esto, este programa es parte del proyecto de investigación PERSEPTEUR siendo respaldado y financiado por la French Agence Nationale de la Recherche ANR bajo la referencia ANR-14-CE24-0017- 01, pero aún no se tiene un manual de usuario lo suficientemente robusto para el programa, aparte de que es bastante inestable.
 
 # 6. BIBLIOGRAFÍAS
+
+endesa. (s.f.). Obtenido de Smart Cities: https://www.fundacionendesa.org/es/recursos/a201908-smart city#:~:text=Son%20aquellas%20en%20las%20que,eficacia%20de%20los%20recursos%20disponibles.
+
+ORACLE. (s.f.). Obtenido de ¿Qué es Internet of Things (IoT)?: https://www.oracle.com/mx/internet-of-things/what-is-iot/
+
