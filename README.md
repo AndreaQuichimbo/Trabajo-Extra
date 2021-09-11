@@ -26,7 +26,13 @@ Ing. Darwin Omar Alulema Flores
 
 Objetivos Generales
 
+Proponer un estudio del modelo smart city que sirva como base para futuros proyectos en la ciudad, con el fin de establecer una fuente de investigación que impulse a la investigación, desarrollo de soluciones y aplicativos smart para el bienestar de sus habitantes, a través de una demostración de una red de sensores utilizando el software CupCarbon. 
+
 Objetivos Específicos
+
+- Definir propiamente el concepto de una ciudad smart.
+- Concientizar sobre los beneficios y ventajas del modelo smart.
+- Implementación y demostración de la red de sensores por medio delsoftware CupCarbon. 
 
 # 2. MARCO TEORICO
 
