@@ -44,7 +44,7 @@ Objetivos Específicos
 
 </div>
 
-CupCarbon es un sensor inalámbrico de Smart City e Internet de las cosas Simulador de red (SCI-WSN). Su objetivo es diseñar, visualizar, depurar y validar algoritmos distribuidos para monitoreo, recopilación de datos ambientales, etc., y para crear escenarios como incendios, gas, móviles y, en general, dentro de proyectos educativos y científicos. No solo puede ayudar a visualizar explicar los conceptos básicos de las redes de sensores y cómo funcionan; también puede ayudar a los científicos a probar sus topologías inalámbricas, protocolos, etc.
+CupCarbon es un sensor inalámbrico de Smart City e Internet de las cosas (IoT) Simulador de red (SCI-WSN). Su objetivo es diseñar, visualizar, depurar y validar algoritmos distribuidos para monitoreo, recopilación de datos ambientales, etc., y para crear escenarios como incendios, gas, móviles y, en general, dentro de proyectos educativos y científicos. No solo puede ayudar a visualizar explicar los conceptos básicos de las redes de sensores y cómo funcionan; también puede ayudar a los científicos a probar sus topologías inalámbricas, protocolos, etc.
 
 CupCarbon ofrece dos entornos de simulación.
 
@@ -60,6 +60,25 @@ Internet of Things (IoT) describe la red de objetos físicos (cosas) que incorpo
 La implementación de varios nodos de IoT es muy difícil, costosa, demorada y puede ser imposible cuando los nodos tienen que ser reprogramados frecuentemente o cuando los nodos se implementan en lugares distantes, por ejemplo, en diferentes ciudades o países.
 
 Así, el uso de software para simular la implementación, reconfiguración y monitoreo de los algoritmos de comunicación de esas redes son muy prácticos y útiles en determinadas fases de un proyecto. La plataforma “CupCarbon” fue desarrollado para este propósito.
+
+**2.2 ¿Qué es una ciudad smart?**
+
+Son aquellas en las que se aplican las tecnologías de la información y de la comunicación (TIC) con el objetivo de proveerlas de infraestructuras que garanticen:
+
+- Un desarrollo sostenible.
+- Un incremento de la calidad de vida de los ciudadanos.
+- Una mayor eficacia de los recursos disponibles.
+- Una participación ciudadana activa.
+ 
+La Smart City nace de la necesidad de mantener una armonía entre todos estos aspectos.
+
+Se prevé que en el 2050 un 85% de la población mundial viva en ciudades. Este hecho hace que en las siguientes décadas los núcleos urbanos tengan que afrontar un número creciente de problemas ligados a este hecho, como:
+
+- El abastecimiento energético.
+- Las emisiones de CO2.
+- La planificación del tráfico automovilístico.
+- La provisión de bienes y materias primas.
+- La prestación de servicios sanitarios y de seguridad a todos quienes residan en estos enormes y masificados centros de población.
 
 # 3. Desarrollo
 
