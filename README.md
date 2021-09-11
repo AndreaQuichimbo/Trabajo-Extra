@@ -40,7 +40,7 @@ Objetivos Específicos
   
 **CupCarbon**
   
-![image](https://user-images.githubusercontent.com/84430867/132598335-77218170-2801-43ab-88ff-1cb8912d1879.png)
+![image](https://user-images.githubusercontent.com/84430867/132935514-e74168b7-feb2-47c7-81f2-6ac230d422ec.png)
 
 </div>
 
