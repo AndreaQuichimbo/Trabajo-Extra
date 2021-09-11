@@ -18,7 +18,7 @@ INGENIERO
 
 Ing. Darwin Omar Alulema Flores
 
-# Ejemplo de uso del simulador CupCarbon
+# Ejemplo para simular una red IoT con CupCarbon
   
 </div>
 
@@ -67,8 +67,8 @@ Así, el uso de software para simular la implementación, reconfiguración y mon
 
 # 5. CONCLUSIONES
 
-- La simulación de CupCarbon se basa en la capa de aplicación de los nodos. Esto lo convierte en un verdadero complemento de los
-simuladores. No simula todas las capas de protocolo debido a la naturaleza compleja de las redes urbanas que necesitan incorporar
-otra información compleja y que consume recursos, como edificios, carreteras, movilidad, señales, etc.
+- La simulación de CupCarbon se basa en la capa de aplicación de los nodos. Esto lo convierte en un verdadero complemento de los simuladores. No simula todas las capas de protocolo debido a la naturaleza compleja de las redes urbanas que necesitan incorporar otra información compleja y que consume recursos, como edificios, carreteras, movilidad, señales, etc.
+- Se presenta un simulador, CupCarbon, para el diseño y estudio de redes de sensores inalámbricos. El objetivo principal de este simulador es educativo. Demuestra el uso de sensores inalámbricos en casi las mismas condiciones que en el mundo real. El simulador también se puede usar para calcular el diagrama de energía de cada sensor.
+- CupCarbon es un software relativamente nuevo, así que el alcance total aún no está determinado; debido a esto, este programa es parte del proyecto de investigación PERSEPTEUR siendo respaldado y financiado por la French Agence Nationale de la Recherche ANR bajo la referencia ANR-14-CE24-0017- 01, pero aún no se tiene un manual de usuario lo suficientemente robusto para el programa, aparte de que es bastante inestable.
 
 # 6. BIBLIOGRAFÍAS
