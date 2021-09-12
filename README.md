@@ -94,12 +94,79 @@ Vamos a simular una red Ad-Hoc Vehicular donde existen una comunicación entre v
 
 Una red ad-hoc vehicular, habitualmente referida por su acrónimo en inglés VANET, es un tipo de red de comunicación que utiliza a los vehículos como nodos de la red. Dado el reducido alcance del canal de comunicación, la conectividad se establece de forma esporádica.
 
-![image](https://user-images.githubusercontent.com/84430867/133000525-05acd218-71f5-4c61-ab37-c12e4cf6bac0.png)
+1. Creamos un nuevo proyecto
+
+![image](https://user-images.githubusercontent.com/84430867/133003873-e8d5d7aa-c21a-4ae9-b27b-a06397107ef2.png)
+
+2. Agregamos sensores IOT
+
+![image](https://user-images.githubusercontent.com/84430867/133003925-f24d94e3-066d-4c51-90e4-ce2b02eda92d.png)
+
+En este caso vamos agregar 4 sensores subscriptores y 1 publicador.
+
+3. Creamos un Script
+
+![image](https://user-images.githubusercontent.com/84430867/133004060-ebc9a096-fbcd-43fb-a88c-19c3974c3b5f.png)
+
+Aquí generamos los códigos para el:
+
+- Publicador
+
+![image](https://user-images.githubusercontent.com/84430867/133004088-0317895e-7bd7-4f61-ba54-d4610aa82d69.png)
+
+El cual nos dice que cada 2segundos el sensor va a quedar activado y desactivado es decir va a cambiar de color verde a azul, este código puede ser modificable.
+
+- Subscriptor
+
+![image](https://user-images.githubusercontent.com/84430867/133004109-885a458e-ef15-4108-a724-953867b0e56f.png)
+
+Aquí llamamos al sensor de la misma manera cada 1 segundo va a enviar la información al publicador.
+
+4. Agregamos los sensores 
+
+- Subscriptores
+
+<div align="center">
+  
+![image](https://user-images.githubusercontent.com/84430867/133004210-15458396-3772-4d4b-828c-4bfff12a4df4.png)
+
+![image](https://user-images.githubusercontent.com/84430867/133004238-84abda91-e4d5-4299-acdb-69f8b60dbcc4.png)
+
+![image](https://user-images.githubusercontent.com/84430867/133004258-b6e74517-6834-40e6-a2cf-2c57672e5a8e.png)
+
+</div>
+
+- Publicador
+
+<div align="center">
+  
+![image](https://user-images.githubusercontent.com/84430867/133004270-93e34ba2-3e60-41f2-bb66-951a79b5a9ad.png)
+
+![image](https://user-images.githubusercontent.com/84430867/133004277-1d85108c-2a28-4626-ba4b-4a26c99983f0.png)
+
+![image](https://user-images.githubusercontent.com/84430867/133004283-75ddf21c-2e88-4cb6-86dc-7003e7e160d7.png)
+
+</div>
+
+5. Ejecutamos
+
+![image](https://user-images.githubusercontent.com/84430867/133004313-6b178dca-be85-460b-afef-b164628e60da.png)
+
+Cada 2 segundo se apagan y se prenden los sensores, los que se prenden son los subscriptores. 
+
+Incluso podemos tener nuestro **Broken** para poder realizar la conexión mediante MQTT, donde nos piden Usuario y Contraseña
+
+<div align="center">
+  
+![image](https://user-images.githubusercontent.com/84430867/133004460-4918ffdb-e6cc-4006-8aa6-278e5d95e393.png)
+
+</div>
 
 # 4. VIDEO
 
 # 5. CONCLUSIONES
 
+- Las Redes VANET son redes inalámbricas creadas con el propósito de establecer comunicación en tiempo real entre vehículos con el fin de prevenir accidentes de tránsito y de mejorar la seguridad de los usuarios. La creación de redes Ad-Hoc Vehiculares logran una alta confiabilidad, escalabilidad y seguridad, por lo que se presenta a esta tecnología como una nueva técnica a ser estudiada.
 - La simulación de CupCarbon se basa en la capa de aplicación de los nodos. Esto lo convierte en un verdadero complemento de los simuladores. No simula todas las capas de protocolo debido a la naturaleza compleja de las redes urbanas que necesitan incorporar otra información compleja y que consume recursos, como edificios, carreteras, movilidad, señales, etc.
 - Se presenta un simulador, CupCarbon, para el diseño y estudio de redes de sensores inalámbricos. El objetivo principal de este simulador es educativo. Demuestra el uso de sensores inalámbricos en casi las mismas condiciones que en el mundo real. El simulador también se puede usar para calcular el diagrama de energía de cada sensor.
 - CupCarbon es un software relativamente nuevo, así que el alcance total aún no está determinado; debido a esto, este programa es parte del proyecto de investigación PERSEPTEUR siendo respaldado y financiado por la French Agence Nationale de la Recherche ANR bajo la referencia ANR-14-CE24-0017- 01, pero aún no se tiene un manual de usuario lo suficientemente robusto para el programa, aparte de que es bastante inestable.
