@@ -88,6 +88,11 @@ Link: de descarga: http://cupcarbon.com/
 
 ![image](https://user-images.githubusercontent.com/84430867/132935499-8f7ca10a-418a-4052-90cb-b296ae5195ff.png)
 
+- SIMULACIÓN DE SENSORES
+
+Vamos a simular una red Ad-Hoc Vehicular donde existen una comunicación entre varios sensores
+
+Una red ad-hoc vehicular, habitualmente referida por su acrónimo en inglés VANET, es un tipo de red de comunicación que utiliza a los vehículos como nodos de la red. Dado el reducido alcance del canal de comunicación, la conectividad se establece de forma esporádica.
 
 ![image](https://user-images.githubusercontent.com/84430867/133000525-05acd218-71f5-4c61-ab37-c12e4cf6bac0.png)
 
