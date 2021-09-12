@@ -112,19 +112,27 @@ Aquí generamos los códigos para el:
 
 - Publicador
 
+<div align="center">
+  
 ![image](https://user-images.githubusercontent.com/84430867/133004088-0317895e-7bd7-4f61-ba54-d4610aa82d69.png)
 
-El cual nos dice que cada 2segundos el sensor va a quedar activado y desactivado es decir va a cambiar de color verde a azul, este código puede ser modificable.
+</div>
 
-- Subscriptor
+El cual nos dice que cada 2 segundos el sensor va a quedar activado y desactivado es decir va a cambiar de color verde a azul, este código puede ser modificable.
 
+- Suscriptor
+
+<div align="center">
+    
 ![image](https://user-images.githubusercontent.com/84430867/133004109-885a458e-ef15-4108-a724-953867b0e56f.png)
+
+</div>
 
 Aquí llamamos al sensor de la misma manera cada 1 segundo va a enviar la información al publicador.
 
 4. Agregamos los sensores 
 
-- Subscriptores
+- Suscriptores
 
 <div align="center">
   
