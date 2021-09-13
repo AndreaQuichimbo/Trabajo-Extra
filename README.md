@@ -63,7 +63,7 @@ Las redes se pueden diseñar y crear prototipos mediante una interfaz ergonómic
 
 </div>
 
-La interfaz gráfica de usuario (GUI) de CupCarbon se compone de las siguientes cinco partes:
+La interfaz gráfica de usuario (GUI) de CupCarbon se compone de las siguientes seis partes:
 
 1. El mapa (en el centro)
 2. La barra de menú (en la parte superior)
