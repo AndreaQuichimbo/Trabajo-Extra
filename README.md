@@ -44,6 +44,8 @@ Objetivos Específicos
 
 </div>
 
+**2.1. ¿Qué es CupCarbon?**
+
 CupCarbon es un sensor inalámbrico de Smart City e Internet de las cosas (IoT) Simulador de red (SCI-WSN). Su objetivo es diseñar, visualizar, depurar y validar algoritmos distribuidos para monitoreo, recopilación de datos ambientales, etc., y para crear escenarios como incendios, gas, móviles y, en general, dentro de proyectos educativos y científicos. No solo puede ayudar a visualizar explicar los conceptos básicos de las redes de sensores y cómo funcionan; también puede ayudar a los científicos a probar sus topologías inalámbricas, protocolos, etc.
 
 CupCarbon ofrece dos entornos de simulación.
@@ -53,7 +55,24 @@ CupCarbon ofrece dos entornos de simulación.
 
 Las redes se pueden diseñar y crear prototipos mediante una interfaz ergonómica y fácil de usar utilizando OpenStreetMap (OSM) marco para desplegar sensores directamente en el mapa. Incluye un script llamado SenScript, que permite programar y programar configurar cada nodo sensor individualmente. A partir de este script, también es posible generar códigos para plataformas de hardware como como Arduino / XBee. Esta parte no está completamente implementada en CupCarbon, permite generar códigos para redes simples y algoritmos.
 
-**2.1 ¿Qué es el IoT?**
+**Partes del CupCarbon**
+
+<div align="center">
+  
+![image](https://user-images.githubusercontent.com/84430867/133011509-f44dde2b-c313-4d07-8505-66de53ecff0b.png)
+
+</div>
+
+La interfaz gráfica de usuario (GUI) de CupCarbon se compone de las siguientes cinco partes:
+
+1. El mapa (en el centro)
+2. La barra de menú (en la parte superior)
+3. La barra de herramientas (debajo del menú)
+4. El menú de parámetros (a la izquierda)
+5. La barra de estado (en la parte inferior)
+6. La consola
+
+**2.2 ¿Qué es el IoT?**
 
 Internet of Things (IoT) describe la red de objetos físicos (cosas) que incorporan sensores, software y otras tecnologías con el fin de conectar e intercambiar datos con otros dispositivos y sistemas a través de Internet. Estos dispositivos van desde objetos domésticos comunes hasta herramientas industriales sofisticadas. Con más de 7 mil millones de dispositivos IoT conectados en la actualidad, los expertos prevén que este número aumente a 10 mil millones para 2020 y 22 mil millones para 2025. Oracle cuenta con una red de partners de dispositivos.
 
@@ -61,7 +80,7 @@ La implementación de varios nodos de IoT es muy difícil, costosa, demorada y p
 
 Así, el uso de software para simular la implementación, reconfiguración y monitoreo de los algoritmos de comunicación de esas redes son muy prácticos y útiles en determinadas fases de un proyecto. La plataforma “CupCarbon” fue desarrollado para este propósito.
 
-**2.2 ¿Qué es una ciudad smart?**
+**2.3 ¿Qué es una ciudad smart?**
 
 Son aquellas en las que se aplican las tecnologías de la información y de la comunicación (TIC) con el objetivo de proveerlas de infraestructuras que garanticen:
 
@@ -80,7 +99,7 @@ Se prevé que en el 2050 un 85% de la población mundial viva en ciudades. Este 
 - La provisión de bienes y materias primas.
 - La prestación de servicios sanitarios y de seguridad a todos quienes residan en estos enormes y masificados centros de población.
 
-# 3. Desarrollo
+# 3. DESARROLLO
 
 Para iniciar con nuestra simulación vamos a iniciar descargandonos **CupCarbon**, es un simulador para smartcities y una red de sensores (WSN). Una versión gratuita del simulador está disponible en línea; el software se ha desarrollado en JAVA y no necesita instalación. Sólo tienes que descomprimir el archivo ZIP a una carpeta que prefieras y abrir el archivo “cupcarbon.jar”. Por supuesto, para eso necesita una versión de JAVA instalada.
 
@@ -88,9 +107,9 @@ Link: de descarga: http://cupcarbon.com/
 
 ![image](https://user-images.githubusercontent.com/84430867/132935499-8f7ca10a-418a-4052-90cb-b296ae5195ff.png)
 
-- SIMULACIÓN DE SENSORES
+**- SIMULACIÓN DE SENSORES**
 
-Vamos a simular una red Ad-Hoc Vehicular donde existen una comunicación entre varios sensores
+Vamos a simular una red Ad-Hoc Vehicular donde existen una comunicación entre varios sensores.
 
 Una red ad-hoc vehicular, habitualmente referida por su acrónimo en inglés VANET, es un tipo de red de comunicación que utiliza a los vehículos como nodos de la red. Dado el reducido alcance del canal de comunicación, la conectividad se establece de forma esporádica.
 
@@ -162,7 +181,7 @@ Aquí llamamos al sensor de la misma manera cada 1 segundo va a enviar la inform
 
 Cada 2 segundo se apagan y se prenden los sensores, los que se prenden son los subscriptores. 
 
-Incluso podemos tener nuestro **Broken** para poder realizar la conexión mediante MQTT, donde nos piden Usuario y Contraseña
+Incluso podemos tener nuestro **Broken** para poder realizar la conexión mediante MQTT, donde nos piden Usuario y Contraseña.
 
 <div align="center">
   
